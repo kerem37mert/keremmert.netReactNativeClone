@@ -7,8 +7,8 @@ import contents from "../../contents.json";
 
 const Home = (props) =>  {
 
-    const getContent = ({item}) => {
-        props.navigation.navigate("ContentScreen",{data:item});
+    const getContent = () => {
+        props.navigation.navigate("ContentScreen",{data:5});
     }
 
     return(
